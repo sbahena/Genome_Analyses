@@ -1,0 +1,10 @@
+Genome_Analyses/
+---Analyses:
+    *Preprocessing
+    *Genome_assembly
+    *Structural_Annotation
+---Code.
+---Data.
+    *Metadata
+    *Raw_data
+    *Trimmed_data
