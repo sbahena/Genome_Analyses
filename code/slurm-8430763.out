@@ -1,0 +1,21 @@
+125.0Gb memory in total.
+Using: 112.829Gb.
+MEGAHIT v1.1.2
+--- [Fri Apr  5 12:35:01 2019] Start assembly. Number of CPU threads 20 ---
+--- [Fri Apr  5 12:35:01 2019] Available memory: 134609682432, used: 121148714188
+--- [Fri Apr  5 12:35:01 2019] Converting reads to binaries ---
+    [read_lib_functions-inl.h  : 209]     Lib 0 (/home/silvi/raw_data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz,/home/silvi/raw_data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz): pe, 48110692 reads, 101 max length
+    [utils.h                   : 126]     Real: 128.6586	user: 44.0573	sys: 6.0199	maxrss: 152860
+--- [Fri Apr  5 12:37:11 2019] k list: 21,31,41,51,61,71,81,91,101,105 ---
+--- [Fri Apr  5 12:37:11 2019] Extracting solid (k+1)-mers and building sdbg for k = 21 ---
+--- [Fri Apr  5 13:50:44 2019] Assembling contigs from SdBG for k = 21 ---
+--- [Fri Apr  5 15:41:10 2019] Local assembling k = 21 ---
+--- [Fri Apr  5 15:58:24 2019] Extracting iterative edges from k = 21 to 31 ---
+--- [Fri Apr  5 16:19:50 2019] Building graph for k = 31 ---
+--- [Fri Apr  5 16:31:27 2019] Assembling contigs from SdBG for k = 31 ---
+--- [Fri Apr  5 17:38:11 2019] Local assembling k = 31 ---
+--- [Fri Apr  5 17:56:35 2019] Extracting iterative edges from k = 31 to 41 ---
+--- [Fri Apr  5 18:13:01 2019] Building graph for k = 41 ---
+--- [Fri Apr  5 18:24:46 2019] Assembling contigs from SdBG for k = 41 ---
+--- [Fri Apr  5 19:22:46 2019] Local assembling k = 41 ---
+slurmstepd: error: *** JOB 8430763 ON r481 CANCELLED AT 2019-04-05T19:35:18 DUE TO TIME LIMIT ***

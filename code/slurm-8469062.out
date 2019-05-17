@@ -1,0 +1,30 @@
+125.0Gb memory in total.
+Using: 112.829Gb.
+MEGAHIT v1.1.2
+--- [Mon Apr  8 22:29:21 2019] Start assembly. Number of CPU threads 20 ---
+--- [Mon Apr  8 22:29:21 2019] Available memory: 134609682432, used: 121148714188
+--- [Mon Apr  8 22:29:21 2019] Converting reads to binaries ---
+    [read_lib_functions-inl.h  : 209]     Lib 0 (/home/silvi/raw_data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz,/home/silvi/raw_data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz): pe, 59954188 reads, 101 max length
+    [utils.h                   : 126]     Real: 171.8740	user: 57.2186	sys: 6.0803	maxrss: 152844
+--- [Mon Apr  8 22:32:16 2019] k list: 65,75,85,95,105 ---
+--- [Mon Apr  8 22:32:16 2019] Extracting solid (k+1)-mers and building sdbg for k = 65 ---
+--- [Mon Apr  8 23:11:31 2019] Assembling contigs from SdBG for k = 65 ---
+--- [Mon Apr  8 23:31:31 2019] Local assembling k = 65 ---
+--- [Mon Apr  8 23:59:07 2019] Extracting iterative edges from k = 65 to 75 ---
+--- [Tue Apr  9 00:04:38 2019] Building graph for k = 75 ---
+--- [Tue Apr  9 00:06:48 2019] Assembling contigs from SdBG for k = 75 ---
+--- [Tue Apr  9 00:16:22 2019] Local assembling k = 75 ---
+--- [Tue Apr  9 00:34:04 2019] Extracting iterative edges from k = 75 to 85 ---
+--- [Tue Apr  9 00:38:23 2019] Building graph for k = 85 ---
+--- [Tue Apr  9 00:40:19 2019] Assembling contigs from SdBG for k = 85 ---
+--- [Tue Apr  9 00:48:50 2019] Local assembling k = 85 ---
+--- [Tue Apr  9 01:02:36 2019] Extracting iterative edges from k = 85 to 95 ---
+--- [Tue Apr  9 01:04:46 2019] Building graph for k = 95 ---
+--- [Tue Apr  9 01:06:23 2019] Assembling contigs from SdBG for k = 95 ---
+--- [Tue Apr  9 01:13:43 2019] Local assembling k = 95 ---
+--- [Tue Apr  9 01:24:40 2019] Extracting iterative edges from k = 95 to 105 ---
+--- [Tue Apr  9 01:24:44 2019] Building graph for k = 105 ---
+--- [Tue Apr  9 01:25:43 2019] Assembling contigs from SdBG for k = 105 ---
+--- [Tue Apr  9 01:31:57 2019] Merging to output final contigs ---
+--- [STAT] 160013 contigs, total 143198971 bp, min 200 bp, max 173476 bp, avg 895 bp, N50 1141 bp
+--- [Tue Apr  9 01:32:00 2019] ALL DONE. Time elapsed: 10958.379925 seconds ---
