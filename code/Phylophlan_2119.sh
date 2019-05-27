@@ -17,4 +17,4 @@ module load muscle/3.8.31
 module load usearch/5.2.32
 
 
-~/nsegata-phylophlan-1d174e34b2ae/phylophlan.py -i -t  Phylo_2133 --nproc 4
+~/nsegata-phylophlan-1d174e34b2ae/phylophlan.py -i -t  Phylo_2119 --nproc 4
